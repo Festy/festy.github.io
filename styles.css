@@ -7,16 +7,28 @@
 }
 
 #main {
-    width: 500px;
     background-color: white;
-    margin: 50px auto;
+    margin: 100px auto;
     font-size: 20px;
 }
 
+#main_text {
+    width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 160%;
+}
+
 .sidebar {
-    width: 10%;
-    float: left;
-    margin: 30px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
 }
 
 .sidebar li {
@@ -24,7 +36,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
-    transition: color 0.5s ease;
+    transition: color 0.2s ease;
 }
 
 .sidebar li:hover {
@@ -34,6 +46,21 @@
 .sidebar li a {
     text-decoration: none;
     color: inherit;
+}
+
+.img-circle {
+    background-image: url('profile.png');
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
 }
 
 body {
