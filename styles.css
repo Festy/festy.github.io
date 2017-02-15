@@ -7,7 +7,6 @@
 }
 
 #main {
-    background-color: white;
     margin: 100px auto;
     font-size: 20px;
 }
@@ -26,13 +25,16 @@
     left: 60px;
 }
 
-.sidebar ul {
+ul {
     margin: 0;
     padding: 0;
 }
 
-.sidebar li {
+li {
     list-style: none;
+}
+
+.sidebar li {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
