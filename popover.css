@@ -1,0 +1,11 @@
+.popover {
+    position: absolute;
+    z-index: 1000;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+}
+
+.popover-content {
+    padding: 5px;
+}
