@@ -4,7 +4,9 @@ var v = new Popover({
     position: 'right',
     template: '<div class="popover"> ' +
     '<div class="popover-arrow"></div> ' +
-    '<div class="popover-content" >It allows customers to simply enter their phone number and wait for the phone to ring instead of manually dialing the telephone number, entering access code and audio PIN.</div> ' +
+    '<div class="popover-content" >It allows customers to simply enter their phone number and wait for the phone to ring instead of manually dialing the telephone number, entering access code and audio PIN.' +
+    '<a target="_blank" href = "http://support.citrixonline.com/en_US/meeting/help_files/G2M090097"> more info.. </a>' +
+    '</div> ' +
     '</div>',
     align: 'left'
 });

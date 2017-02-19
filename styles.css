@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
 #name {
     font-family: 'Roboto', serif;
     font-size: 48px;
@@ -16,6 +20,13 @@
     margin: 0 auto;
     text-align: justify;
     line-height: 160%;
+}
+
+#project_text {
+    width: 1000px;
+    text-align: justify;
+    line-height: 160%;
+    margin-left: 250px;
 }
 
 .sidebar {
@@ -74,4 +85,17 @@ li {
 body {
     font-family: 'Roboto', serif;
     font-weight: 300;
+}
+
+.outer_list > ul > li {
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.outer_list > ul > li > ul > li {
+    font-weight: 300;
+    margin-left: 20px;
+    list-style: disc;
+    font-size: 20px;
 }
