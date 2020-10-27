@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <div id="top-menu">
       <router-link to="/">Home</router-link>
       <router-link to="/projects">Projects</router-link>
       <router-link to="/resume">Resume</router-link>
@@ -8,15 +8,15 @@
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "../vars.scss";
+
 a {
   text-decoration: none;
   margin-left: 20px;
 }
 
-.sidebar {
+#top-menu {
       padding: 30px;
 
   a {

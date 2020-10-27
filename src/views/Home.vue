@@ -5,12 +5,11 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import Sidebar from '@/components/Sidebar.vue'
+import TopMenu from '@/components/TopMenu.vue'
 
-@Component({
+export default {
   components: {
 
   }
-})
-export default class Home extends Vue {}
+}
 </script>

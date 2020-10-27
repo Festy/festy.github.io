@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <div id="nav">
-      <Sidebar />
+      <TopMenu />
     </div>
     <router-view/>
   </div>
 </template>
 
 <script lang="ts">
-import Sidebar from '@/components/Sidebar.vue'
+import TopMenu from '@/components/TopMenu.vue'
 export default {
   components: {
-    Sidebar
+    TopMenu
   }
 }
 </script>
@@ -25,5 +25,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $color_font_default;
+
+  a {
+    color: $color_font_default;
+  }
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
 }
 </style>
